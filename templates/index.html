@@ -42,7 +42,7 @@ Hello World [% name %]!
                     $('#output').text(data)
                 },
                 error: function(data) {
-                    $('#output').text(data)
+                    $('#output').text(data.responseText)
                 }
             })
         })
