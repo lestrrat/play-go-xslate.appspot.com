@@ -40,6 +40,9 @@ Hello World [% name %]!
                 },
                 success: function(data) {
                     $('#output').text(data)
+                },
+                error: function(data) {
+                    $('#output').text(data)
                 }
             })
         })
