@@ -165,5 +165,5 @@ func serveApiRender(w http.ResponseWriter, r *http.Request) {
     return
   }
 
-  fmt.Fprintf(w, output)
+  fmt.Fprint(w, output)
 }
