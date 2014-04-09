@@ -14,7 +14,7 @@
 </div>
 
 <div style="position: absolute; top: 60px; font-size: 11px; width: 75%">
-   This is where you can test out <a href="https://github.com/lestrrat/go-xslate">go-xslate</a>, a template engine based on Perl5's Text::Xslate. If you find any templates that you think should work but don't, <a href="https://github.com/lestrrat/go-xslate/issues">please file an issue</a> with the link to this template (press the "Share" button above, then copy the URL)
+   This is where you can test out <a href="https://github.com/lestrrat/go-xslate">go-xslate</a>, a template engine based on <a href="http://xslate.org">Perl5's Text::Xslate</a>. If you find any templates that you think should work but don't, <a href="https://github.com/lestrrat/go-xslate/issues">please file an issue</a> with the link to this template (press the "Share" button above, then copy the URL)
 </div>
 
 <div id="wrap">
