@@ -44,7 +44,7 @@ func createXslate() *xslate.Xslate {
 func serveIndex(w http.ResponseWriter, r *http.Request) {
   tx := createXslate()
   err := tx.RenderInto(w, "index.html.tx", xslate.Vars {
-    "Template": `[%- # This is where you template go -%]
+    "Template": `[%- # This is where your template go -%]
 Hello World [% name %]!
 [%- # Variables can be specified in the box below, in JSON format -%]`,
     "Variables": `{
